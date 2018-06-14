@@ -1,0 +1,6 @@
+<launch>
+  <node name="intersection_pub" pkg="filter" type="intersection_pub.py" output="screen">
+    <param name="table" value='0' />
+    <param name="table_offset" value='0.2' />
+  </node>
+</launch>
